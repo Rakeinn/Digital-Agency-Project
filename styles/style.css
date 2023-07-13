@@ -22,3 +22,50 @@
     font-weight: bolder;
     font-size: x-large;
 }
+
+.banner-container{
+    height: 100vh;
+    background-image: url(../asset/image/background.jpg),linear-gradient( rgb(0, 0, 0, 0.3), rgb(0, 0, 0,0.8));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title{
+    font-size:86px;
+    font-weight:900;
+    color: white;
+}
+.text-primary{
+    color: rgb(245, 44, 44)
+}
+.banner-description{
+    font-size:22px;
+    color: white;
+    margin-bottom:10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn-primary{
+    padding: 15px 35px;;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color:rgb(245, 44, 44);
+    color: white;
+    border-radius: 10px;
+}
+.btn-primary2{
+    padding: 15px 35px;;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 2px solid rgb(245, 44, 44);
+    border-radius: 10px;
+}
