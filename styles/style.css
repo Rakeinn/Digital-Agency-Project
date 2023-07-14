@@ -189,3 +189,50 @@ border-radius: 25px;
     border-radius:25px;
     border: none;
 }
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin: 50px;
+}
+.blog-description{
+    font-size: x-large;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: -40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 20px;
+}
+.card{
+    width:350px;
+    height: 430px;
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+    text-align: center;
+}
+.card-title{
+    font-size:24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+    
+}
+
+.card-description{
+    font-size:18px;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+    
+}
+.blog-img{
+    width:350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
