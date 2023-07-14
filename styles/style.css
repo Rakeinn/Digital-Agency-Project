@@ -158,3 +158,34 @@ border-radius: 25px;
     border-right: 5px solid red;
     padding-right: 20px;
 }
+.appointment-container{
+    background-color: red;
+    color: white;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-top: -90px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+
+.appointment-des{
+    padding: 10px;
+    text-align: justify;
+}
+
+.btna{
+    padding: 15px 35px;
+    border-radius:25px;
+    border: none;
+}
